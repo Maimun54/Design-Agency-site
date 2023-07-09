@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px
+    ;
+}
+section{
+    margin-buttom: 20px 20px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+}
+.main-menu li a {
+    text-decoration: none;
+}
+
+.banner-section{
+    background-image: url("asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: center;
+}
+span.duel.color {
+    color: red;
+}
+
+
+h3.banner-title {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.btn-design {
+    text-align: center;
+    margin-top: 30px;
+}
+button.btn-primary {
+    font-size: 22px;
+    padding: 5px;
+    background: red;
+    color: white;
+    margin: 15px;
+}
+p.banner-discription {
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+/* service section start */
+button.btn-service {
+    padding: 19px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    background: white;
+    color: gray;
+    margin: 5px;
+}
+.service-info {
+    width: 50%;
+    background: black;
+    margin: 82px;
+}
+
+h2.service-title {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 7px;
+    color: rgb(190, 207, 208);
+}
+p.service-discription {
+    font-size: 20px;
+    width: 80%;
+    color: white;
+    margin: 25px 8px;
+}
+.author-title {color: white;}
+
+img.author-profile {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.author-contianer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+}
+ul.service-list {
+    color: white;
+    margin: 20px 20px;
+}
+.author-btn {
+    padding-left: 50px;
+}
+button.button-service {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.box-design{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgb(26, 24, 24);
+    padding: 50px;
+    margin: 25px;
+}
+.box-img{
+    width: 100%;
+}
+.service_contianer {
+    display: flex;
+    background: black;
+}
+.box-design-2 {
+    display: flex;
+}
+img.app-logo {
+    width: 100px;
+    padding: 15px;
+}
+.callbox {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.appointment-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 75%;
+    margin: auto;
+    margin-top: -72px;
+}
+.appointment-description {
+    width: 40%;
+    margin: 10px;
+}
+.boxinfo {
+    margin-bottom: 100px;
+}
+h2.blog-title {
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+img.blog-img {
+    width: 300px;
+}
+
+.blog-box {
+    width: 301px;
+    height: 361px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+
+h2.blog-box-title {
+    margin: 10px;
+    padding: 0px;
+}
+
+p.blog-box-description {
+    font-size: 17px;
+    line-height: 25px;
+}
+.blog-conatian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+}
